@@ -60,8 +60,8 @@
 아래 코드 참고
 
 import ctypes 
-#ctypes를 이용하여 파이썬에서 C/C++ 타입의 문법을 사용
-#다음과 같이 줄여서 사용 가능 (import ctypes as c)
+#;ctypes를 이용하여 파이썬에서 C/C++ 타입의 문법을 사용
+#;다음과 같이 줄여서 사용 가능 (import ctypes as c)
 
 mydll = ctypes.WinDLL("[DLL경로명]")
 #' 절대경로 ("C:\\Desktop\\[DLL파일명].dll")

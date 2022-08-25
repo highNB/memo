@@ -16,9 +16,9 @@
 + Python 설치 (vsc 확장 에서 설치함)(ver 2022.10.1)
 + (선택) 확장에서 한국어 확장팩 설치
  
-절차
+순서
 ------------------------------
-#1. DLL제작 (Visual Studio)
+# 1. DLL제작 (Visual Studio)
 + Visual Studio 설치할때 "C++를 사용한 데스크톱 개발" 체크 해야 DLL라이브러리 프로젝트 선택 가능 
 + 새 프로젝트 -> DLL(동적 연결 라이브러리) -> 생성 -> 코드 작성 후 빌드하면 [클래스이름.dll] 생성됨 
 + 새 헤더파일 추가(헤더.h) 
@@ -38,15 +38,15 @@
 	</code>
 	</pre>
 + 빌드
-##해당 프로젝트 위치에 [클래스이름.dll] 생성됨
+	* 해당 프로젝트 위치에 [클래스이름.dll] 생성됨
 
  
-+여기까지 안되면 참고(dll제작 및 사용)
-## https://docs.microsoft.com/en-us/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp?view=msvc-170
++ DLL관련 참고 문서
+	* https://docs.microsoft.com/en-us/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp?view=msvc-170
 
 
 
-#2. 파이썬 에서 사용
+# 2. 파이썬 에서 사용
 + 아래 코드 참고
 <pre>
 <code>

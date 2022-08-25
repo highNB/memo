@@ -73,7 +73,7 @@ myPyFunc.argtypes = (ctypes.c_int,ctypes.c_int)
 myPyFunc.restype = ctypes.c_int
 # 리턴 타입
 
-print(myPyFunc(190000,2))
+print(myPyFunc(19,10000))
 # 사용예시
 </code>
 </pre>

@@ -32,7 +32,7 @@
 	extern "C" __declspec(dllexport) int myCppFunc(int a, int b);
 	</code>
 	</pre>
-	"C" -> 네임 맹글링 (Name Mangling)으로 함수명(심볼)을 못찾는 일을 방지함
+	
 + 새 소스파일 추가 (소스.cpp)
 	아래와 같이 작성
 	<pre>

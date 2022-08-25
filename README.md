@@ -1,4 +1,4 @@
-#파이썬에서 다른 언어(C++)로 작성된 DLL 사용 빠르게 정리
+파이썬에서 다른 언어(C++)로 작성된 DLL 사용 빠르게 정리
 ===================================
 작업환경
 ------------------------------
@@ -68,7 +68,7 @@ myPyFunc.argtypes = (ctypes.c_int,ctypes.c_int)
 myPyFunc.restype = ctypes.c_int
 # 리턴 타입
 
-print(myPyFunc(190000,200))
+print(myPyFunc(190000,20000))
 # 사용예시
 </code>
 </pre>

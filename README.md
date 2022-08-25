@@ -14,8 +14,8 @@
  
 2. Visual Studio Code
 + Visual Studio Code (ver 1.70.2)
-+ Python extension (ver 2022.10.1)
-+ (선택) 우측 확장(Ctrl+X)에서 한국어 설치
++ Python extension (VSC 내부 확장 프로그램) (단축키: Ctrl + X -> python검색) (ver 2022.10.1)
++ (선택) VSC 한국어 확장팩 
  
 3. python 
 + python (ver 3.10.6 64bit)

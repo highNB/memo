@@ -3,12 +3,12 @@
 작업환경
 ------------------------------
 + OS: 윈도우10, 64bit
-+ dll제작: Visual Studio 2022
++ dll제작: Visual Studio 2022, Visual Studio 2015
 + python: Visual Studio Code 
 
 설치해야 하는것
 ------------------------------
-1. Visual Studio 2022
+1. Visual Studio
 + Visual Studio 2022 (ver 17.3.2)
 + "C++를 사용한 데스크톱 개발" 체크하고 설치
  
@@ -23,8 +23,8 @@
 순서
 ------------------------------
 # 1. DLL제작 (Visual Studio)
-+ 새 프로젝트 -> DLL(동적 연결 라이브러리) -> 생성, 이 때 클래스 이름으로 dll 생성됨 
-+ 'DLL(유니버셜 Windows)' 아님
++ 2022 -> 새 프로젝트 -> DLL(동적 연결 라이브러리) -> 생성, 이 때 클래스 이름으로 dll 생성됨 
++ 2015 -> 새 프로젝트 -> MFC DLL -> 생성
 + 새 헤더파일 추가(헤더.h) 
 	아래와 같이 작성
 	<pre>	<code>

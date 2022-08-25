@@ -6,42 +6,37 @@
 + dll제작: Visual Studio 2022
 + python: Visual Studio Code 
 
-필수설치
+설치해야 하는것
 ------------------------------
-1. Visual Studio (또는 DLL 제작 가능한 IDE)
-+ 2022버전으로 테스트 함
-
+1. Visual Studio 2022
++ Visual Studio 2022 (ver 17.3.2)
++ "C++를 사용한 데스크톱 개발" 체크하고 설치
  
-2. Visual Studio Code 및 Python 확장 설치
-+ 설치 후 경로설정 하고 재부팅
-+ Python 설치 (vsc 확장 에서 설치함)(ver 2022.10.1)
-+ (선택) 확장에서 한국어 확장팩 설치
+2. Visual Studio Code
++ Visual Studio Code (ver 1.70.2)
++ Python extension (ver 2022.10.1)
++ (선택) 우측 확장(Ctrl+X)에서 한국어 설치
  
-3. python 설치 (VSC에서 사용할 인터프리터) (3.10.6 64bit)
+3. python 
++ python (ver 3.10.6 64bit)
 
 순서
 ------------------------------
 # 1. DLL제작 (Visual Studio)
-+ Visual Studio 설치할때 "C++를 사용한 데스크톱 개발" 체크 해야 DLL라이브러리 프로젝트 선택 가능 
 + 새 프로젝트 -> DLL(동적 연결 라이브러리) -> 생성, 이 때 클래스 이름으로 dll 생성됨 
 + 'DLL(유니버셜 Windows)' 아님
 + 새 헤더파일 추가(헤더.h) 
 	아래와 같이 작성
-	<pre>
-	<code>
+	<pre>	<code>
 	extern "C" __declspec(dllexport) int myCppFunc(int a, int b);
-	</code>
-	</pre>
-	
+	</code>	</pre>	
 + 새 소스파일 추가 (소스.cpp)
 	아래와 같이 작성
-	<pre>
-	<code>
+	<pre>	<code>
 	#include "pch.h"
 	#include "헤더.h"
 	int myCppFunc(int a, int b) { return a * b; }
-	</code>
-	</pre>
+	</code>	</pre>
 + 빌드
 	* 해당 프로젝트 위치에 [클래스이름.dll] 생성됨
 

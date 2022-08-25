@@ -1,4 +1,4 @@
-파이썬에서 다른 언어(C++)로 작성된 DLL 사용 정리
+파이썬에서 C++ 로 작성된 DLL 사용 정리
 ===================================
 작업환경
 ------------------------------
@@ -41,13 +41,16 @@
 	* 해당 프로젝트 위치에 [클래스이름.dll] 생성됨
 
  
-+ DLL관련 참고 문서
++ DLL관련 참고 예제
 	* https://docs.microsoft.com/en-us/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp?view=msvc-170
 
 
 
 # 2. 파이썬 에서 사용
-+ 아래 코드 참고
++ 파이썬에서 사용시 DLL파일만 있으면 됨
++ 아래 코드 Visual Studio Code에 복사
++ 최초 실행 시 우측 하단 인터프리터 선택 -> 위에서 설치한 파이썬(ver.3.10.6) 연결
+
 <pre>
 <code>
 import ctypes 
